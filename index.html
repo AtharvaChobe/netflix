@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+        </style>
+</head>
+<body>
+    <div class="container">
+
+
+        <video autoplay muted loop plays-inline class="vdo">
+            <source src="img/THE FLASH - FINAL TRAILER.mp4">
+        </video>
+
+        <p class="overlay"></p>
+
+        <div class="navigation flex">
+            <div class="logo">
+                <img src="img/toppng.com-netflix-logo-png-download-1280x544.png" alt="">
+            </div>
+
+            <div class="navbar flex" id="navbar">
+                <div class="left flex">
+                    <ul class="flex menu">
+                        <li>Home</li>
+                        <li>Movies</li>
+                        <li>Popular</li>
+                        <li>TV</li>
+                        <li>WatchList</li>
+                    </ul>
+                </div>
+                <div class="right flex">
+                    <span class="fas fa-search" aria-hidden="true"></span>
+                    <span class="fas fa-bell" aria-hidden="true"></span>
+                    <!-- <span class="fas fa-caret" aria-hidden="true"></span> -->
+                </div>
+            </div>
+            <img src="img/icons8-hamburger-menu-50.png" alt="" class="ham" onclick="toggle()" style="background-color: white; border-radius: 10px; padding: 5px;">
+            <img src="img/icons8-cancel-30.png" alt="" class="cancel" onclick="cancel()" style="background-color: white; border-radius: 30px;">
+        </div>
+
+        <div class="banner">
+            <h1>The Flash</h1>
+            <p>When his attempt to save his family inadvertently alters the future, <br>Barry Allen becomes trapped in a reality in which <br>General Zod has returned and there are no Super Heroes to turn to. 
+            </p>
+            <button class="btn">Watch Now</button>
+        </div>
+
+
+    </div>
+    <div class="cards">
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/vB8o2p4ETnrfiWEgVxHmHWP9yRl.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/gPbM0MK8CP8A174rmUwGsADNYKD.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/muDaKftykz9Nj1mhRheMdbuNI9Z.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/1dviyIqBrbnigrbodIvfMQj8mJ0.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/cn6kjfbE8jhiBuhanIc2pwuzhG5.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/1H2xEZOixs0z0JKwyjANZiKNNVJ.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/nrtbv6Cew7qC7k9GsYSf5uSmuKh.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/fiVW06jE7z9YnO4trhaMEdclSiC.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/sGm09gLVyICQl8lVIHpmHZAgSNq.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/bBON9XO9Ek0DjRwMBnJNCwC96Cd.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/gD72DhJ7NbfxvtxGiAzLaa0xaoj.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/afGdVMa80LMs6ibLP22CwM5uI4e.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/ktejodbcdCPXbMMdnpI9BUxW6O8.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" alt=""></div>
+        <div class="card"><img src="https://image.tmdb.org/t/p/original/eeJjd9JU2Mdj9d7nWRFLWlrcExi.jpg" alt=""></div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
